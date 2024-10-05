@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "WorkSansRegular";
+  src: url("/assets/fonts/static/WorkSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "WorkSansSemiBold";
+  src: url("/assets/fonts/static/WorkSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "WorkSansBold";
+  src: url("/assets/fonts/static/WorkSans-Bold.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8eeff;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-section {
+  position: absolute;
+  width: 600px;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.inner-section {
+  padding: 40px;
+}
+
+.main-heading {
+  font-family: "WorkSansBold";
+  font-size: 56px;
+}
+
+.sub-heading {
+  font-family: "WorkSansSemiBold";
+  font-size: 18px;
+}
+
+.description {
+  font-family: "WorkSansRegular";
+  font-size: 16px;
+}
+
+.d-flex {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 32px;
+}
+
+.jc-start {
+  justify-content: start;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+img {
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  display: block;
+}
+
+.d-flex-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.d-none {
+  display: none;
+}
+
+.margin-bottom {
+  margin-bottom: 3rem;
+}
+
+h2 {
+  transition: color 0.3s ease;
+}
+
+h2:hover {
+  color: #ad28eb;
+}
+
+.minus {
+  width: 24.38px;
+}
+
+.plus {
+  width: 24.38px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
