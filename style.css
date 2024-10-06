@@ -1,16 +1,6 @@
 @font-face {
-  font-family: "WorkSansRegular";
-  src: url("/assets/fonts/static/WorkSans-Regular.ttf") format("truetype");
-}
-
-@font-face {
   font-family: "WorkSansSemiBold";
-  src: url("/assets/fonts/static/WorkSans-SemiBold.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "WorkSansBold";
-  src: url("/assets/fonts/static/WorkSans-Bold.ttf") format("truetype");
+  src: url("./assets/fonts/static/WorkSans-SemiBold.ttf") format("truetype");
 }
 
 * {
